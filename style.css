@@ -100,8 +100,10 @@ p {
 }
 
 .menu a {
- transition: 0.4s;
+ text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+ transition: text-decoration-color 300ms;
 }
+
 .menu a:hover {
- transform: scale(1.1);
+ text-decoration-color: rgb(218, 4, 4);
 }
